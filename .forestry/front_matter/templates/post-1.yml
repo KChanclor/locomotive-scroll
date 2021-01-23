@@ -1,4 +1,12 @@
 ---
 label: Post 1
 hide_body: false
-fields: []
+fields:
+- name: article
+  type: blocks
+  label: Article
+  template_types:
+  - post-1
+  config:
+    min: 6
+    max: 18
